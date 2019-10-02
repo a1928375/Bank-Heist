@@ -16,8 +16,8 @@ It is not possible to take all three, and even though the Incan statue has the h
 
 Then the mass limit and the taken objects are just a number and a string list respectively: 
 
-limit = 20
+            limit = 20
 
-taken = [ "mask", "urn" ] 
+            taken = [ "mask", "urn" ] 
 
-Write a Python procedure heistvalid(available,limit,taken) that returns True (the boolean value True, not the string "True") if the objects  in the list `taken' have a total mass less than or equal to the limit. In addition, write a Python procedure heisttotal(available,limit,taken) that returns the total value (as a number) of the objects in the list `taken'. This problem is meant to provide practice for *list comprehensions*. Make the body each of your procedures *at most one line long*. Hint: sum([1,2,3]) == 6 
+Write a Python procedure heistvalid(available,limit,taken) that returns True (the boolean value True, not the string "True") if the objects  in the list 'taken' have a total mass less than or equal to the limit. In addition, write a Python procedure heisttotal(available,limit,taken) that returns the total value (as a number) of the objects in the list 'taken'. This problem is meant to provide practice for *list comprehensions*. Make the body each of your procedures *at most one line long*. Hint: sum([1,2,3]) == 6 
